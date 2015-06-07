@@ -12,6 +12,8 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
@@ -21,14 +23,23 @@
     <![endif]-->
 
 
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-      <li>HTML5 Boilerplate</li>
-      <li>Sass</li>
+    <div class="container">
 
-      </ul>
+      <div class="main">
+
+        <h1>Serial<i class="fa fa-book fa-"></i></h1>
+
+        <p>Give me the name of a book series or a book in a series, and I'll give you a list of the the books in that series</p>
+
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <span class="input-group-btn">
+            <button class="btn btn-success" type="button">Search</button>
+          </span>
+        </div>
+
+      </div>
+
     </div>
 
 

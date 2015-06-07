@@ -3,5 +3,9 @@
   "private": true,
   "dependencies": {
     "jquery": "~1.11.1"
+  },
+  "devDependencies": {
+    "fontawesome": "~4.3.0",
+    "bootstrap": "~3.3.4"
   }
 }

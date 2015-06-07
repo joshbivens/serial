@@ -1,31 +1,61 @@
 // bower:scss
 // endbower
 
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Sanchez);
+
+// Vars
+// - font-family
+$sanchez: 'Sanchez', serif;
+
+
+// - fonts/colors
+$body-text: #494354;
+$hero-text: #3a3f7c;
+
+// - fonts/sizes
+$body-copy: 3em;
+$card-copy: 1em;
+
+//General
 body {
   background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica,  sans-serif;
   color: #333;
+  font-size: 62.5%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 300px;
-  font-size: 18px;
+.main {
+  margin: 100px auto 0 auto;
+  width: 80%;
+  min-width: 330px;
+  font-size: $body-copy;
   font-weight: 200;
   line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
+  display: block;
+  text-align: center;
   h1 {
-    font-size: 60px;
+    font-size: 80px;
     line-height: 1;
     letter-spacing: -1px;
+    font-family: $sanchez;
+    margin-bottom: 35px;
+    i {
+      font-size: 45px;
+      margin-left: 10px;
+    }
   }
-}
+  p {
+    margin-bottom: 40px;
+  }
 
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
+  .input-group {
+    margin: 0 auto;
+    min-width: 250px;
+    maw-width: 310px;
+    width: 70%;
+  }
+
+}//end
