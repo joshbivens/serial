@@ -18,7 +18,7 @@ $card-copy: 2em;
 
 //General
 body {
-  background: #fafafa;
+  background: #fbfbfb;
   font-family: 'Helvetica Neue', Helvetica,  sans-serif;
   color: #333;
   font-size: 62.5%;
@@ -62,16 +62,50 @@ body {
     min-width: 250px;
     maw-width: 310px;
     width: 70%;
+
+//    .btn-success {
+//      background: cadetblue;
+//    }
+
   }
 
 }//end .main
 
 .results {
+  .results-item {
+    background-color: #fff;
+    margin: 5px;
+    height: 200px;
+    -webkit-box-shadow: 2px 2px 7px 0px rgba(184,184,184,1);
+    -moz-box-shadow: 2px 2px 7px 0px rgba(184,184,184,1);
+    box-shadow: 2px 2px 7px 0px rgba(184,184,184,1);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    .results-item-content {
+      padding: 15px;
+    }
+  }
   p {
     font-size: $card-copy;
   }
   .number {
-    font-size: $card-copy;
+    text-align: center;
+    font-size: 2.5em;
+    color: #fff;
+    padding: 4px;
+    width: 30px;
+    background-color: rgb(92, 184, 92);
   }
 
-}
+}//end .results
+
+//Media Queries
+
+
+
+
+
+
+
+
+
