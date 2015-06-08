@@ -14,7 +14,7 @@ $hero-text: #3a3f7c;
 
 // - fonts/sizes
 $body-copy: 3em;
-$card-copy: 1em;
+$card-copy: 2em;
 
 //General
 body {
@@ -27,10 +27,16 @@ body {
   justify-content: center;
 }
 
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
 .main {
-  margin: 100px auto 0 auto;
+  margin: 100px auto 40px auto;
   width: 80%;
   min-width: 330px;
+  max-width: 500px;
   font-size: $body-copy;
   font-weight: 200;
   line-height: 30px;
@@ -58,4 +64,14 @@ body {
     width: 70%;
   }
 
-}//end
+}//end .main
+
+.results {
+  p {
+    font-size: $card-copy;
+  }
+  .number {
+    font-size: $card-copy;
+  }
+
+}
