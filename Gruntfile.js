@@ -68,6 +68,17 @@ module.exports = function (grunt) {
       }
     },
 
+    ngAnnotate: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: '.tmp/concat/scripts',
+          src: '*.js',
+          dest: '.tmp/concat/scripts'
+        }]
+      }
+    },
+
     // The actual grunt server settings
     connect: {
       options: {
