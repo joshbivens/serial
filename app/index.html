@@ -41,7 +41,7 @@
       </div>
 
       <div class="results" ng-controller="BookController">
-        <div class="col-md-4" ng-repeat="book in books">
+        <div class="col-xs-12 col-sm-4 col-md-4" ng-repeat="book in books">
           <span class="number">{{ $index + 1}}</span>
           <h4>{{ book.title }}</h4>
           <p>{{ book.pageNum }} pgs</p>
@@ -57,6 +57,7 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
+    <script src="bower_components/angular/angular.min.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
