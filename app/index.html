@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js">
+<html class="no-js" ng-app="myApp">
   <head>
     <meta charset="utf-8">
     <title>Serial</title>
@@ -27,9 +27,9 @@
 
       <div class="main">
 
-        <h1>Serial<i class="fa fa-book fa-"></i></h1>
+        <h1>Serial<i class="fa fa-book"></i></h1>
 
-        <p>Give me the name of a book series or a book in a series, and I'll give you a list of the the books in that series</p>
+        <p>Give me the name of a book series or a book in a series, and I'll give you a list of the books in that series</p>
 
         <div class="input-group">
           <input type="text" class="form-control">
@@ -38,6 +38,15 @@
           </span>
         </div>
 
+      </div>
+
+      <div class="results" ng-controller="BookController">
+        <div class="col-md-4" ng-repeat="book in books">
+          <span class="number">{{ $index + 1}}</span>
+          <h4>{{ book.title }}</h4>
+          <p>{{ book.pageNum }} pgs</p>
+          <p>{{ book.description }}</p>
+        </div>
       </div>
 
     </div>
