@@ -2,6 +2,7 @@
     {
       "series": "Southern Reach",
       "num": 1,
+      "cover": "images/sr-1.jpg",
       "author": "Jeff Vandermeer",
       "title": "Annihilation",
       "description": "Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor."
@@ -9,6 +10,7 @@
     {
       "series": "Southern Reach",
       "num": 2,
+      "cover": "images/sr-2.jpg",
       "author": "Jeff Vandermeer",
       "title": "Authority",
       "description": "Aenean lacinia bibendum nulla sed consectetur."
@@ -16,6 +18,7 @@
     {
       "series": "Southern Reach",
       "num": 3,
+      "cover": "images/sr-3.jpg",
       "author": "Jeff Vandermeer",
       "title": "Acceptance",
       "description": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros."
@@ -23,6 +26,7 @@
     {
       "series": "Elric",
       "num": 1,
+      "cover": "images/el-1.jpg",
       "author": "Michael Moorcock",
       "title": "Elric of Melniboné",
       "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
@@ -30,6 +34,7 @@
     {
       "series": "Elric",
       "num": 2,
+      "cover": "images/el-2.jpg",
       "author": "Michael Moorcock",
       "title": "The Sailor on the Seas of Fate",
       "description": "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit."
@@ -37,6 +42,7 @@
     {
       "series": "Elric",
       "num": 3,
+      "cover": "images/el-3.jpg",
       "author": "Michael Moorcock",
       "title": "The Weird of the White Wolf",
       "description": "Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum."
@@ -44,6 +50,7 @@
     {
       "series": "Elric",
       "num": 4,
+      "cover": "images/el-4.jpg",
       "author": "Michael Moorcock",
       "title": "The Vanishing Tower",
       "description": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."
@@ -51,6 +58,7 @@
     {
       "series": "Elric",
       "num": 5,
+      "cover": "images/el-5.jpg",
       "author": "Michael Moorcock",
       "title": "The Bane of the Black Sword",
       "description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam."
@@ -58,6 +66,7 @@
     {
       "series": "Elric",
       "num": 6,
+      "cover": "images/el-6.jpg",
       "author": "Michael Moorcock",
       "title": "Stormbringer",
       "description": "Donec ullamcorper nulla non metus auctor fringilla."
@@ -65,6 +74,7 @@
     {
       "series": "Elric",
       "num": 7,
+      "cover": "images/el-7.jpg",
       "author": "Michael Moorcock",
       "title": "Elric at the End of Time ",
       "description": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet."
@@ -72,6 +82,7 @@
     {
       "series": "Elric",
       "num": 8,
+      "cover": "images/el-8.jpg",
       "author": "Michael Moorcock",
       "title": "The Fortress of the Pearl",
       "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa."
@@ -79,6 +90,7 @@
     {
       "series": "Elric",
       "num": 9,
+      "cover": "images/el-9.jpg",
       "author": "Michael Moorcock",
       "title": "The Revenge of the Rose",
       "description": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet."
