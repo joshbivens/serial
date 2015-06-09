@@ -34,7 +34,7 @@
         <p>Give me the name of a book series or a book in a series, and I'll give you a list of the books in that series</p>
 
         <div class="input-group">
-          <input type="text" class="form-control">
+          <input type="text" class="form-control" ng-model="query">
           <span class="input-group-btn">
             <button class="btn btn-success" type="button">Search</button>
           </span>
@@ -43,14 +43,17 @@
       </div>
 
       <div class="results" ng-controller="BookController">
-        <div class="col-xs-12 col-sm-4 col-md-4" ng-repeat="book in books">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="book in books | filter: query">
           <div class="results-item">
             <div class="number">{{ book.num }}</div>
             <div class="results-item-content">
-              <p><em>{{ book.series }}</em></p>
+              <p><em><u>{{ book.series }}</u></em></p>
               <h4>{{ book.title }}</h4>
               <p>{{ book.author }}</p>
               <p>{{ book.description }}</p>
+            </div>
+            <div class="result-item-cover">
+              <img src="{{ book.cover }}" alt="{{ book.alt }}">
             </div>
           </div>
         </div>
