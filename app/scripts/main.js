@@ -3,11 +3,17 @@
 var app = angular.module('myApp', []);
 
 app.controller("BookController", function($scope, $http) {
-  $http.get('books/books.json').
-    success(function(data) {
-      $scope.books = data;
-    }).
-    error(function(data, status, headers, config) {
-     console.log('Aaaaa!');
-    });
+
+  $scope.submit = function(){
+
+    $http.get('books/books.json', $scope.query).
+      success(function(data) {
+        $scope.books = data;
+        console.log(data, $scope.query);
+      }).
+      error(function(data) {
+       console.log('$http.get error');
+      });
+    }
+
 });
